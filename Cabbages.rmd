@@ -21,9 +21,14 @@ veggy <- cabbages
  
 ### Is there a difference in average VitC between c39 and c52 cultivation methods?  
 
+
+
+
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+
+We looked at the variables and it looked like we have a numerical variables which is the numerical variable that is going to be how much vitamin C (this is a numerical variable) is containted between the two cultivation methods.Those cultivation methods are called c39 and c52 methods and those are the categorial variables.
 
 # Results
 
