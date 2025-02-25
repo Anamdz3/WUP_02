@@ -23,7 +23,6 @@ veggy <- cabbages
 
 
 
-
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
@@ -40,6 +39,10 @@ We looked at the variables and it looked like we have a numerical variables whic
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(VitC~Cult,data=veggy)
+```
+The graph shows that the first quartile of c52 is higher than the first quartile of c39 which is lower. This shows that this cultivation of the vitamin C are statistically different.
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
