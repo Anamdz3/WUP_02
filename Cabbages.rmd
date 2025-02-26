@@ -27,7 +27,7 @@ veggy <- cabbages
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-We looked at the variables and it looked like we have a numerical variables which is the numerical variable that is going to be how much vitamin C (this is a numerical variable) is containted between the two cultivation methods.Those cultivation methods are called c39 and c52 methods and those are the categorial variables.
+We looked at the variables and it looked like we have a numerical variables which is the numerical variable that is going to be how much vitamin C (this is a numerical variable) is contained between the two cultivation methods.Those cultivation methods are called c39 and c52 methods and those are the categorical variables.
 
 # Results
 
@@ -42,7 +42,9 @@ We looked at the variables and it looked like we have a numerical variables whic
 ```{r}
 boxplot(VitC~Cult,data=veggy)
 ```
+
 The graph shows that the first quartile of c52 is higher than the first quartile of c39 which is lower. This shows that this cultivation of the vitamin C are statistically different.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -50,6 +52,7 @@ The graph shows that the first quartile of c52 is higher than the first quartile
 ```{r}
 favstats(VitC~Cult,data=veggy)
 ```
+
 The Q3 under the c39 is 54.75 and the Q3 under c52 is 70.75. Both show and increase of veggy cultivation compare to the Q1, however the higher is c52. Both contain 30 numerical values.
 
 ## Inferential Results
@@ -60,8 +63,10 @@ The Q3 under the c39 is 54.75 and the Q3 under c52 is 70.75. Both show and incre
 t.test(VitC~Cult,data=veggy)
 ```
 
-I reject the null hypothesis because the chances are an extremely small number and that chance is 0.00000003405, in conclusion is that c39 and c52 are significantly different, you get more using the method of cultivation from c52.
+I reject the null hypothesis because the chances are an extremely small number and that chance is 0.00000003405, in conclusion is that c39 and c52 are significantly different, you get more clorophile using the method of cultivation from c52.
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+We first examine the Boxplot for VitC and found the difference in average between c39 and c52. We found out that they are statistically different. Then we examined the numerical results in which we found the numerical values of c39 and c52. And finally we wrote the hypothesis in the differential results in which we rejected the null hypothesis because the chances are extremly low. Making c39 and c52 significantly different.
+
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
