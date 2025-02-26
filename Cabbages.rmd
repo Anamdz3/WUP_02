@@ -60,7 +60,7 @@ The Q3 under the c39 is 54.75 and the Q3 under c52 is 70.75. Both show and incre
 t.test(VitC~Cult,data=veggy)
 ```
 
-I reject the jull hypothesis because the chances are an extremely small number and that chance is 0.00000003405, in conclusion is that c39 and c52 are significantly different, you get more using the mothod of cultivation from c52.
+I reject the null hypothesis because the chances are an extremely small number and that chance is 0.00000003405, in conclusion is that c39 and c52 are significantly different, you get more using the method of cultivation from c52.
 
 # Discussion and Conclusion
 
